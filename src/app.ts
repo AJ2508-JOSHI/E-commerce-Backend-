@@ -98,7 +98,7 @@ app.use(cors());
 
 
 app.get("/", (req, res) => {
-  res.send("API Working with /api.v1");
+  res.send("API Working with /api/v1");
 });
 
 //Using Routes
